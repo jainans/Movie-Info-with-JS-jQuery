@@ -1,0 +1,22 @@
+#movies img{
+    width : 100%;
+    margin-top: 15px;
+   
+}
+@media(min-width:960px) {
+    #movies .col-md-3 .well{
+        height : 33.33%;
+        padding: 15px;
+    }
+    #movies .col-md-3 img{
+        height : 400px;
+    }
+    #movie .col-md-4 img{
+        height : 400px;
+    }
+}
+
+.jumbotron{
+    padding: 20px;
+    margin-top: 10px;
+}
