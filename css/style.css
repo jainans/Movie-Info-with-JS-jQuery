@@ -1,22 +1,37 @@
-#movies img{
-    width : 100%;
-    margin-top: 15px;
-   
+.search-butt{
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
-@media(min-width:960px) {
-    #movies .col-md-3 .well{
-        height : 33.33%;
-        padding: 15px;
-    }
-    #movies .col-md-3 img{
-        height : 400px;
-    }
-    #movie .col-md-4 img{
-        height : 400px;
-    }
+#movies img {
+    width: 100%;
+
 }
 
-.jumbotron{
-    padding: 20px;
-    margin-top: 10px;
+@media(min-width:960px){
+    #movies .col-md-3{
+        height: 490px;
+    }
+
+    #movies .col-md-3 .well img{
+        height: 70%;
+    }
 }
+#movies .col-md-3 .well{
+    height: 100%;
+}
+
+.well{
+    margin: 25px;
+}
+h2{
+    text-align: center;
+}
+.col-md-8{
+    max-width: 100%;
+}
+#movie .col-md-4 img{
+   
+    width: 100%;
+    height: 100%;
+}
+

@@ -19,9 +19,11 @@ const getMovies = (searchText)=>{
             <div class="col-md-3">
             <div class="well text-center">
                 <img src="${movie.Poster}">
+                <div class="info">
                 <h5>${movie.Title}</h5>
                 <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
             </div>
+             </div>
             </div>
             `;
 
@@ -56,6 +58,7 @@ const getMovie = ()=>{
           </div>
           <div class="col-md-8">
           <h2>${movie.Title}</h2>
+          <div class="ls">
           <ul class="list-group">
               <li class="list-group-item"><strong>Genre : </strong>${movie.Genre}</li>
               <li class="list-group-item"><strong>Released : </strong>${movie.Released}</li>
@@ -65,6 +68,7 @@ const getMovie = ()=>{
               <li class="list-group-item"><strong>Writer : </strong>${movie.Writer}</li>
               <li class="list-group-item"><strong>Actors : </strong>${movie.Actors}</li>
           </ul>
+          </div>
       </div>
         </div>
         <div class="row">
